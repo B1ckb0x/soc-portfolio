@@ -2,7 +2,7 @@
 
 Documented incident investigations and detection work from hands-on SOC training labs (LetsDefend) and a self-built home detection lab. I write each case up the way I'd document it in a real SOC ticketing system: what triggered the alert, how I investigated, what I concluded, and what I'd recommend.
 
-**Background:** Computer Support Specialist (Public Trust) transitioning into SOC Analyst work. [Add 1-2 lines here about what draws you to security / what you're building toward.]
+**Background:** Computer Support Specialist (Public Trust) transitioning into SOC Analyst work. I love the investigative side of cybersecurity; the always-changing threat landscape, and stopping attacks or remediating them before data gets stolen.
 
 **Skills demonstrated across these cases:** alert triage, log correlation, phishing analysis, malware/IOC identification, MITRE ATT&CK mapping, incident documentation, true/false positive determination.
 
