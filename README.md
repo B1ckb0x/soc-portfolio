@@ -19,5 +19,6 @@ Documented incident investigations and detection work from hands-on SOC training
 | 4 | [Phishing → Password-Protected Malicious Attachment](./cases/case-04-phishing-password-protected-zip/) | Phishing / Malware | True Positive — Deleted |
 | 5 | [Internal Email — False Alarm](./cases/case-05-false-positive-internal-email/) | Alert Tuning | False Positive |
 | 6 | [Phishing — Malicious Attachment, No Execution](./cases/case-06-phishing-dormant-payload/) | Phishing | True Positive — No Impact |
+| 7 | [Multi-Vector Web Application Attack](./cases/case-07-multi-vector-web-attack/) | Web Application Attack | Mixed — 2 Successful, 2 Unsuccessful |
 
 Each case includes the alert details, my investigation steps, indicators of compromise, MITRE ATT&CK mapping, and remediation recommendation.
