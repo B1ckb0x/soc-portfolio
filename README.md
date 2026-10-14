@@ -22,5 +22,6 @@ Documented incident investigations and detection work from hands-on SOC training
 | 7 | [Multi-Vector Web Application Attack](./cases/case-07-multi-vector-web-attack/) | Web Application Attack | Mixed — 2 Successful, 2 Unsuccessful |
 | 8 | [Phishing → Fake Webmail Login](./cases/case-08-phishing-fake-webmail/) | Phishing | True Positive — Contain and escalate |
 | 9 | [SSH Password Spray on a Web Server](./cases/case-09-ssh-password-spray/) | Brute Force / Splunk | True Positive — Password guessing |
+| 10 | [SSH Failed-Password Threshold](./cases/case-10-ssh-failed-password-threshold/) | Splunk correlation rule | True Positive — Noise excluded |
 
 Each case includes the alert details, my investigation steps, indicators of compromise, MITRE ATT&CK mapping, and remediation recommendation.
