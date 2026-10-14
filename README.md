@@ -4,7 +4,7 @@ Documented incident investigations and detection work from hands-on SOC training
 
 **Background:** Computer Support Specialist (Public Trust) transitioning into SOC Analyst work. I love the investigative side of cybersecurity; the always-changing threat landscape, and stopping attacks or remediating them before data gets stolen.
 
-**Skills demonstrated across these cases:** alert triage, log correlation, phishing analysis, malware/IOC identification, MITRE ATT&CK mapping, incident documentation, true/false positive determination.
+**Skills demonstrated across these cases:** alert triage, log correlation, phishing analysis, malware/IOC identification, MITRE ATT&CK mapping, incident documentation, true/false positive determination, Splunk SPL, SSH authentication-log review.
 
 ## Home Lab
 - [Detection Engineering Lab — Sysmon + Splunk + Atomic Red Team](./home-lab/) — self-built Sysmon + SIEM environment; simulated 3 MITRE ATT&CK techniques and built the Splunk detections for them
@@ -20,5 +20,7 @@ Documented incident investigations and detection work from hands-on SOC training
 | 5 | [Internal Email — False Alarm](./cases/case-05-false-positive-internal-email/) | Alert Tuning | False Positive |
 | 6 | [Phishing — Malicious Attachment, No Execution](./cases/case-06-phishing-dormant-payload/) | Phishing | True Positive — No Impact |
 | 7 | [Multi-Vector Web Application Attack](./cases/case-07-multi-vector-web-attack/) | Web Application Attack | Mixed — 2 Successful, 2 Unsuccessful |
+| 8 | [Phishing → Fake Webmail Login](./cases/case-08-phishing-fake-webmail/) | Phishing | True Positive — Contain and escalate |
+| 9 | [SSH Password Spray on a Web Server](./cases/case-09-ssh-password-spray/) | Brute Force / Splunk | True Positive — Password guessing |
 
 Each case includes the alert details, my investigation steps, indicators of compromise, MITRE ATT&CK mapping, and remediation recommendation.
